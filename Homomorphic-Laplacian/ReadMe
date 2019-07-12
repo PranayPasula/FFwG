@@ -1,0 +1,16 @@
+Use the RunMe file to apply homomorphic or laplacian filters. Each one of them takes following arguments
+
+HOMOMORPHIC: 
+-i <image> 
+-f <filter> # it can be 'laplacian' or 'homomorphic'
+-gl <gammaL> # a float value giving cofficient for low frequency (defualt 0.3)
+-gh <gammaH> # a float valued cofficient for high frequency (default 0.3)
+-c <cutoff freq> # a float for cutoff requency (defualt 35)
+-o <order> # an integer for order of homomorphic transform (defaul 2)
+
+LAPLACIAN:
+-i <image>
+-o <order or cofficient> # a number for cofficient of laplacian transform, default value is o.oooo1
+
+
+All outputs are saved in the 'output folder'
