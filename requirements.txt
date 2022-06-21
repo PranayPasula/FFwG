@@ -1,4 +1,4 @@
 pillow==5.4.1
-numpy==1.16.2
+numpy==1.22.0
 opencv==3.4.2
 tk==8.6.8
